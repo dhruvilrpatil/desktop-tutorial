@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+color: aliceblue;
+}
+
+#logo{
+        text-decoration: none;
+        color: white
+}
+#logo:hover{
+        text-decoration: underline;
+        color: rgb(255, 226, 188);
+}
+body {
+      background-image: url("sign-in-img.webp");
+      background-repeat: no-repeat;
+      padding: 2px;
+      background-size:cover;
+       
+       }
+tr  {
+     border: 1px solid white;
+             backdrop-filter: blur(15px);
+     }
+
+             
+
+table, td, th{
+              border: 1px solid black;
+              margin:0 auto;
+              margin-top:100px;
+              border-radius: 30px;
+              border-collapse: collapse;
+               }
+table {
+        width: 50%;
+        border-radius: 30px;
+       }
+</style>
+</head>
+<body><h1>
+        <div id="topbar">
+                <h1><a id="logo" href="homepage.html">MyProperties.in</a></h1>
+           </div>
+<h1><forms action="/action_page.html">
+<table>
+<tr>
+<th ><lable for="fname"> First Name: </label>
+</th>
+<td>
+<input type="fname" name="fname " required >
+</td>
+</tr>
+<tr>
+<th ><lable for="username"> Username: </label>
+</th>
+<td>
+<input type="text" name="username" required >
+</td>
+</tr>
+<tr>
+<th ><lable for="pwd"> Password: </label>
+</th>
+<td>
+<input type="password" name="pwd" required >
+</td>
+</tr>
+<tr>
+<th>
+<label for="lname"> Last Name: </label>
+</th>
+<td>
+<input type="lname" name="lname" required>
+</td>
+</tr>
+<tr>
+<th>
+<label for="tel"> Contact Number </label>
+</th>
+<td>
+<input type="tel" id="quantity" min="1" max="9" placeholder="123-45-678"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+</td>
+</tr>
+<tr>
+<th>
+<label for="email">Enter Your Email </label>
+</th>
+<td>
+<input type="email" id="email" required>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td><a href="homepage.html"><button style="color: black;">Sign In</button></a></td>
+</td>
+</tr></p>
+</table>
+</forms></h1>
+</body>
+</html>

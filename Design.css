@@ -1,0 +1,344 @@
+body{
+ /*   background-image: url("background.jpeg");
+    position: relative;
+    */
+    
+   /* background-image: url("gradient.png");*/
+   /* background-image: linear-gradient(black, #021526, #03346E, rgb(0, 174, 255));*/
+
+    background-image: linear-gradient(to right, #070F2B,#1B1A55,#535C91,#9290C3);
+
+}
+#topbar{
+    
+    background: linear-gradient(
+        to right,
+        #000000c9,
+        rgba(0, 0, 0, 0)
+    ), url("topbar.png");
+    background-size: 100%;
+    height: 200px;
+    border-radius: 10px;   
+}
+#signin {
+    border-radius: 5px;
+    font-size: 20px;
+    position: relative;
+    top: -70px;
+    left: 1482px;
+    background: rgba(255, 255, 255, 0.749);
+}
+#signin:hover{
+    background-color: rgb(19, 81, 109);
+    color: whitesmoke;
+    border-color: rgb(6, 7, 76);
+    transition-delay: 100ms;
+    transition-duration: 100ms;
+}
+
+#logo{
+    background-blend-mode: luminosity;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-top: 45px;
+}
+#logo:hover{
+    color: rgb(251, 255, 144);
+    text-decoration: underline;
+}
+
+.inshort{
+    padding-left: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.subhead{
+    padding-left: 25px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.property{
+    background-color: antiquewhite;
+    background-size: 100%;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px rgba(135, 135, 135, .1), 0 0 18px 3px rgba(1, 10, 255, 0.789);
+    transition: width 2s;
+}
+.property:hover{
+    width: 400px;
+}
+.s1{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 45px;
+}
+.house{
+    background-color: antiquewhite;
+    background-size: 100%;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px rgba(135, 135, 135, .1), 0 0 18px 3px rgba(1, 10, 255, 0.789);
+    transition: width 2s;
+}
+.house:hover{
+    width: 400px;
+}
+.s1{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 45px;
+}
+.flat{
+    background-color: antiquewhite;
+    background-size: 100%;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px rgba(135, 135, 135, .1), 0 0 18px 3px rgba(1, 10, 255, 0.789);
+    transition: width 2s;
+}
+.flat:hover{
+    width: 400px;
+}
+.s1{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 45px;
+}
+.products-plot-1{
+  /*  background-image: url("plot_1.jpeg");*/
+    height: 400px;
+    width: 400px;
+    background-size: 400px 400px;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  background: linear-gradient(
+    to top,
+    #000000c9,
+    rgba(0, 0, 0, 0)
+), url("plot_1.jpeg");
+background-size: 150%;
+}
+.products-plot-2{
+    /*  background-image: url("plot_1.jpeg");*/
+      height: 400px;
+      width: 400px;
+      background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+    left: 552px;
+    top: -441px;
+    background: linear-gradient(
+      to top,
+      #000000c9,
+      rgba(0, 0, 0, 0)
+  ), url("plot_2.jpeg");
+  background-size: 170%;
+  }
+  .products-plot-3{
+    /*  background-image: url("plot_1.jpeg");*/
+      height: 400px;
+      width: 400px;
+      background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+    left: 1098px;
+    top: -880px;
+    background: linear-gradient(
+      to top,
+      #000000c9,
+      rgba(0, 0, 0, 0)
+  ), url("plot_3.webp");
+  background-size: 170%;
+  }
+.products_txt{
+    margin-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.products-text-container{
+    margin-top: 40px;
+    position: relative;
+    top: 290px;
+    left: 10px;
+}
+
+.description{
+    color: whitesmoke;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*.initial-button{
+background-color: aquamarine;
+left: 300px;
+position: relative;
+font-size: 50px;
+border-radius: 20px;
+}
+.initial-button:hover{
+    background-color: antiquewhite;
+    color: #000000c9;
+    border-right: 100px;
+}*/
+.button {
+    border-radius: 4px;
+    background-color: #dca639;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.products-house-1{
+    /*  background-image: url("plot_1.jpeg");*/
+      height: 400px;
+      width: 400px;
+      background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background: linear-gradient(
+      to top,
+      #000000c9,
+      rgba(0, 0, 0, 0)
+  ), url("House_1.jpg");
+  background-size: 150%;
+  }
+  .products-house-2{
+    /*  background-image: url("plot_1.jpeg");*/
+      height: 400px;
+      width: 400px;
+      background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+    left: 552px;
+    top: -441px;
+    background: linear-gradient(
+      to top,
+      #000000c9,
+      rgba(0, 0, 0, 0)
+  ), url("House_2.jpg");
+  background-size: 150%;
+  }
+  .products-house-3{
+    /*  background-image: url("plot_1.jpeg");*/
+      height: 400px;
+      width: 400px;
+      background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+    left: 1098px;
+    top: -880px;
+    background: linear-gradient(
+      to top,
+      #000000c9,
+      rgba(0, 0, 0, 0)
+  ), url("House_3.webp");
+  background-size: 130%;
+  }
+
+  .products-flat-1{
+    /*  background-image: url("plot_1.jpeg");*/
+      height: 400px;
+      width: 400px;
+      background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background: linear-gradient(
+      to top,
+      #000000c9,
+      rgba(0, 0, 0, 0)
+  ), url("Flat_1.jpg");
+  background-size: 170%;
+  }
+  .products-flat-2{
+    /*  background-image: url("plot_1.jpeg");*/
+      height: 400px;
+      width: 400px;
+      background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+    left: 552px;
+    top: -441px;
+    background: linear-gradient(
+      to top,
+      #000000c9,
+      rgba(0, 0, 0, 0)
+  ), url("Flat_2.webp");
+  background-size: 170%;
+  }
+  .products-flat-3{
+    /*  background-image: url("plot_1.jpeg");*/
+      height: 400px;
+      width: 400px;
+      background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    position: relative;
+    left: 1098px;
+    top: -880px;
+    background: linear-gradient(
+      to top,
+      #000000c9,
+      rgba(0, 0, 0, 0)
+  ), url("Flat_3.jpg");
+  background-size: 170%;
+  }
